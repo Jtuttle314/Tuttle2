@@ -6,7 +6,7 @@ SELECT * FROM actor;
 SELECT first_name, last_name FROM actor;
 
 # 1b. Display the first and last name of each actor in a single column in upper case letters. Name the column `Actor Name`. 
-SELECT UPPER(cONcat(first_name," ",last_name))
+SELECT UPPER(CONCAT(first_name," ",last_name))
 as Actor_Name FROM actor;
 
 # 2a. You need to find the ID number, first name, and last name of an actor, of whom you know ONly the first name, "Joe." What is ONe query would you use to obtain this informatiON?
